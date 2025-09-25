@@ -1,8 +1,35 @@
-*{
-    margin: 0%;
-    padding: 0%;
+:root {
+  --cor1: #f5f5f5;
+  --cor2: #09096d;
+  --cor3: #40e0d0;
+  --cor4: #0c0c55;
+  --cor5: #0d081b;
+}
+#Header {
+  justify-content: center;
+  margin: auto;
+  display: flex;
+  width: 1200px;
+  height: 80px;
+  background-color: var(--cor2);
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--cor1);
 }
 
-#Container {
-    background-color: #dfc7e6;
+#BoxPersonal {
+}
+
+#ContainerMenu {
+  display: flex;
+  width: 400px;
+  height: 60px;
+}
+.Menu {
+  align-content: center;
+  border: solid 1px var(--cor1);
+  width: 160px;
+  height: 40px;
+  text-align: center;
+  justify-content: space-between;
+  margin: 20px;
 }
